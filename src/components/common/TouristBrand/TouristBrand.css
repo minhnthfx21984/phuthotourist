@@ -1,0 +1,23 @@
+.tourist-brand {
+  text-align: center;
+  padding: 1rem;
+}
+
+.tourist-brand h1,
+.tourist-brand h2,
+.tourist-brand p {
+  margin: 5px;
+}
+
+.tourist-brand h2 {
+  color: white;
+}
+
+.tourist-brand h1 {
+  color: #99ffff;
+}
+
+.tourist-brand p {
+  font-style: italic;
+  color: white;
+}

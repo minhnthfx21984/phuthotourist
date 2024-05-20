@@ -1,0 +1,13 @@
+.home-section-title {
+  text-align: center;
+}
+
+.home-section-title p,
+.home-section-title h4,
+.home-section-title h2 {
+  margin: 10px;
+}
+
+.home-section-title p {
+  font-size: 12px;
+}

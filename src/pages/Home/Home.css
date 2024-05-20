@@ -1,0 +1,31 @@
+.home-about-us {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr; /* Chia container thành hai cột với độ rộng bằng nhau */
+  background-color: rgba(240, 248, 255, 0.756);
+  backdrop-filter: blur(0.5px);
+  border-top-left-radius: 10px; /* Bo tròn góc trên bên trái */
+  border-top-right-radius: 10px; /* Bo tròn góc trên bên phải */
+  margin: 0;
+  box-sizing: border-box;
+  padding: 2rem;
+  gap: 10px;
+}
+
+.home-about-us img {
+  max-width: 100%;
+}
+
+/* Điều chỉnh lại cho màn hình di động */
+@media screen and (max-width: 1000px) {
+  .home-about-us {
+    grid-template-columns: 1fr; /* Chỉ có một cột trên màn hình di động */
+  }
+}
+
+.home-new-posts {
+  background-color: rgba(93, 179, 255, 0.756);
+  backdrop-filter: blur(0.5px);
+  padding: 2rem;
+  box-sizing: border-box;
+}

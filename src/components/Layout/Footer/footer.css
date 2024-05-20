@@ -1,0 +1,83 @@
+.footer-container {
+  background-color: #0b335ec7;
+  color: white;
+  padding: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+}
+
+.footer-column {
+  margin: 0 10px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.footer-column ul {
+  list-style-type: square;
+  padding: 0;
+  margin: 0px;
+  margin-left: 15px;
+}
+
+.footer-column li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer-column li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .footer-column {
+    width: 100%;
+    text-align: start;
+  }
+}
+
+.footer-left-brand {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.footer-left-brand .brand1 {
+  font-size: 8px;
+  color: white;
+}
+
+.footer-left-brand .brand2 {
+  font-size: 24px;
+  color: #99ffff;
+}
+
+.footer-contact .footer-contact-item {
+  margin: 5px 0px;
+  display: flex;
+  font-size: 14px;
+}
+
+.footer-contact .footer-contact-icon {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.footer-copyright {
+  padding: 20px;
+  font-size: 12px;
+  text-align: center;
+}

@@ -1,0 +1,21 @@
+.my-btn {
+  padding: 0.5rem 2rem;
+  box-sizing: border-box;
+  background-color: #0154a6;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.my-btn:hover {
+  cursor: pointer;
+  background-color: #1f6dbb;
+}
+
+/* Điều chỉnh lại cho màn hình di động */
+@media screen and (max-width: 1000px) {
+  .my-btn {
+    width: 100%;
+  }
+}
